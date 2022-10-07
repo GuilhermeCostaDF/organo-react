@@ -6,7 +6,10 @@ function App() {
     <>
       <div className="App">
         <Banner />
-        <CampoTexto />
+        <CampoTexto label="Nome" placeHolder="Digite o seu nome" />
+        <CampoTexto label="Cargo" placeHolder="Digite o seu cargo" />
+        <CampoTexto label="Imagem" placeHolder="Informe o endereço da imagem" />
+        <CampoTexto label="Time" />
       </div>
     </>
   );
