@@ -1,0 +1,29 @@
+.rodape{
+  background-color: #6278F7;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 0px
+}
+
+.redes, .logo, .direitos{
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.redes img{
+  width: 20px;
+  margin-right: 32px;
+}
+
+.logo img{
+  width: 140px;
+}
+
+.direitos{
+  color: white;
+  font-size: 16px;
+}
